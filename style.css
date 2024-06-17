@@ -1,0 +1,34 @@
+/* Allgemeine Stile */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Arial", sans-serif; /* Standardschriftart */
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Georgia", serif; /* Schriftart für Überschriften */
+}
+/* Spezifische Stile */
+.header {
+  text-align: center;
+  background-color: lightblue;
+  padding: 48px 16px;
+}
+
+.main {
+  padding: 16px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+/* Aktualisierte allgemeine Stile */
+body {
+  font-family: "Roboto", sans-serif; /* Aktualisierte Standardschriftart */
+}
