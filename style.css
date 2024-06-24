@@ -14,18 +14,8 @@ body {
   padding: 48px 16px;
 }
 
-.main {
-  padding: 16px;
-  max-width: 800px;
-  margin: 0 auto;
-}
-
-.heading-container {
-  display: flex;
-  align-items: center;
-}
-
-.heading-container h2,
-.heading-container h3 {
-  margin-right: 10px;
+.header h2,
+.header h3 {
+  display: inline; /* Elemente nebeneinander anzeigen */
+  margin-right: 20px; /* Abstand zwischen den Elementen */
 }
