@@ -40,3 +40,8 @@ h6 {
   content: "💻";
   margin-left: 10px;
 }
+
+.header::after {
+  content: "💻";
+  margin-left: 10px;
+}
