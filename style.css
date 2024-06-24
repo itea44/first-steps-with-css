@@ -13,6 +13,31 @@ body {
   line-height: 1.6;
 }
 
+@media (min-width: 786px) {
+  body {
+    font-size: 18px;
+  }
+  .main article {
+    margin-bottom: 20px;
+  }
+}
+
+@media (min-width: 992px) {
+  body {
+    font-size: 20px;
+  }
+  .hire-me-badge {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 1000;
+  }
+  .navigation,
+  .hire-me-badge {
+    display: none;
+  }
+}
+
 .header {
   text-align: center;
   background-color: lightblue;
