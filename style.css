@@ -1,22 +1,11 @@
 * {
   box-sizing: border-box;
-}
-
-html {
-  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-  margin: 0;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: "Georgia", serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .header {
@@ -31,17 +20,12 @@ h6 {
   margin: 0 auto;
 }
 
-::selection {
-  background-color: #ffcc00;
-  color: #000000;
+.heading-container {
+  display: flex;
+  align-items: center;
 }
 
-.header::after {
-  content: "💻";
-  margin-left: 10px;
-}
-
-.header::after {
-  content: "💻";
-  margin-left: 10px;
+.heading-container h2,
+.heading-container h3 {
+  margin-right: 10px;
 }
