@@ -4,18 +4,35 @@
   padding: 0;
 }
 
-body {
+html {
+  font-size: 16px;
   font-family: "Roboto", sans-serif;
+}
+
+body {
+  line-height: 1.6;
 }
 
 .header {
   text-align: center;
   background-color: lightblue;
-  padding: 48px 16px;
+  padding: 2rem;
 }
 
-.header h2,
-.header h3 {
-  display: inline; /* Elemente nebeneinander anzeigen */
-  margin-right: 20px; /* Abstand zwischen den Elementen */
+.header-content {
+  font-size: 3rem;
+}
+
+.header-content h1 {
+  font-size: 1em;
+}
+
+.header-content p {
+  font-size: 0.25em;
+}
+
+.main {
+  max-width: 80ch;
+  margin: 0 auto;
+  padding: 2rem;
 }
