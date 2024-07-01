@@ -4,21 +4,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dokument</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <title>Flexbox Layout Beispiel</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-    <header class="header">
-        <div class="header-content">
-            <h1>Dokumenttitel</h1>
-            <p>Profession</p>
+    <nav class="nav">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <section class="experiences">
+        <div class="experience">
+            <div class="job-title">Software Engineer</div>
+            <div class="time-span">Jan 2020 - Present</div>
         </div>
-    </header>
-    <main class="main">
-        <p>Hier ist der Inhalt des Dokuments.</p>
-    </main>
+        <div class="experience">
+            <div class="job-title">Web Developer</div>
+            <div class="time-span">Jan 2018 - Dec 2019</div>
+        </div>
+        <div class="experience">
+            <div class="job-title">Intern</div>
+            <div class="time-span">Jun 2017 - Dec 2017</div>
+        </div>
+    </section>
 </body>
 
 </html>

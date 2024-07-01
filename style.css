@@ -1,63 +1,39 @@
-* {
-  box-sizing: border-box;
-  margin: 0;
+.nav {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
   padding: 0;
 }
 
-html {
-  font-size: 16px;
-  font-family: "Roboto", sans-serif;
+.nav a {
+  text-decoration: none;
+  padding: 10px;
+  color: #000;
 }
 
-body {
-  line-height: 1.6;
-}
-
-@media (min-width: 786px) {
-  body {
-    font-size: 18px;
-  }
-  .main article {
-    margin-bottom: 20px;
+@media (min-width: 768px) {
+  .nav {
+    flex-direction: row;
   }
 }
 
-@media (min-width: 992px) {
-  body {
-    font-size: 20px;
+.experience {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.job-title {
+  font-weight: bold;
+}
+
+.time-span {
+  font-style: italic;
+}
+
+@media (min-width: 768px) {
+  .experience {
+    flex-direction: row;
+    justify-content: space-between;
   }
-  .hire-me-badge {
-    position: fixed;
-    top: 20px;
-    right: 20px;
-    z-index: 1000;
-  }
-  .navigation,
-  .hire-me-badge {
-    display: none;
-  }
-}
-
-.header {
-  text-align: center;
-  background-color: lightblue;
-  padding: 2rem;
-}
-
-.header-content {
-  font-size: 3rem;
-}
-
-.header-content h1 {
-  font-size: 1em;
-}
-
-.header-content p {
-  font-size: 0.25em;
-}
-
-.main {
-  max-width: 80ch;
-  margin: 0 auto;
-  padding: 2rem;
 }
